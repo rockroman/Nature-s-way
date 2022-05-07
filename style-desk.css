@@ -134,6 +134,10 @@ p{
     color: antiquewhite; 
 
 }
+
+
+
+
 .social-media{
     font-size: 25px;
     margin-top: 1%;
@@ -153,3 +157,273 @@ p{
 .social-media a:hover{
     color: blue;
 }
+
+/*media queries*/
+
+
+
+
+@media screen and (max-width:890px){
+    img{
+        width: 70%; 
+        left: 27%;
+        height: 40%;
+        top: 57%;
+     }
+     h1{
+         margin-left: 15%;
+     }
+     .dropdown{
+         width: 40%;
+     }
+     button{
+         margin-bottom: 14%;
+     }
+     .half-page{
+         height: 80%;
+         background-repeat: no-repeat;
+         background-size: cover;
+     }
+     .message{
+    
+     top: 82%;
+     right: 50%;
+     }
+     footer{
+         height: 18%;
+        
+         
+     }
+
+}
+
+
+
+@media screen and (max-width:840px){
+    img{
+       width: 70%; 
+       left: 27%;
+       height: 40%;
+       top: 57%;
+    }
+    h1{
+        margin-left: 15%;
+    }
+    .dropdown{
+        width: 40%;
+    }
+    button{
+        margin-bottom: 14%;
+    }
+    .half-page{
+        height: 80%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .message{
+   
+    top: 82%;
+    right: 50%;
+    }
+    footer{
+        height: 18%;
+        border-inline: 2% solid green;
+        
+    }
+   
+}
+
+@media  screen and (max-width:430px) {
+    main{
+        height: 900px;
+    }
+
+    h1{
+   font-size: 35px;
+   margin-left: 15%;
+    }
+    img{
+        height: 22%;
+        width: 100%;
+        top: 64%;
+        left: 0%;
+    }
+    .dropdown{
+        width: 70%;
+        height: 50%;
+    }
+    button{
+        margin-bottom: 10%;
+    }
+    .half-page{
+        height: 100%;
+        background-repeat: no-repeat;
+        background-color: black;
+        margin-bottom: 35%;
+    }
+    .message{
+        width: 90%;
+        top: 88%;
+        left: 5%;
+        font-size: 25px;
+        color: green;
+    }
+    footer{
+        height: 20%;
+        padding-top: 5%;
+    }
+    p{
+        margin-left: 11%;
+    }
+    
+}
+
+@media screen and (max-width:395px){
+    main{
+        height: 900px;
+    }
+
+    h1{
+   font-size: 35px;
+   margin-left: 15%;
+    }
+    img{
+        height: 22%;
+        width: 100%;
+        top: 64%;
+        left: 0%;
+    }
+    .dropdown{
+        width: 70%;
+        height: 50%;
+    }
+    button{
+        margin-bottom: 10%;
+    }
+    .half-page{
+        height: 100%;
+        background-repeat: no-repeat;
+        background-color: black;
+        margin-bottom: 35%;
+    }
+    .message{
+        width: 90%;
+        top: 88%;
+        left: 5%;
+        font-size: 25px;
+        color: green;
+    }
+    footer{
+        height: 20%;
+        padding-top: 5%;
+    }
+    p{
+        margin-left: 8%;
+        padding-left: 3%;
+    }
+    
+}
+
+
+
+
+
+
+@media screen and (max-width:365px) {
+
+    main{
+        height: 900px;
+    }
+
+    h1{
+   font-size: 35px;
+   margin-left: 15%;
+    }
+    img{
+        height: 22%;
+        width: 90%;
+        top: 64%;
+        left: 0%;
+    }
+    .dropdown{
+        width: 70%;
+        height: 40%;
+    }
+    button{
+        margin-bottom: 10%;
+    }
+    .half-page{
+        height: 100%;
+        background-repeat: no-repeat;
+        background-color: black;
+        margin-bottom: 35%;
+        
+        
+    }
+    .message{
+        width: 90%;
+        top: 88%;
+        left: 5%;
+        font-size: 22px;
+        color: green;
+    }
+    footer{
+        height: 20%;
+        padding-top: 5%;
+        
+    }
+    p{
+        
+        margin-right: 1%;
+        padding-right: 1%;
+        width: 95%;
+    }
+}
+
+
+@media screen and (max-width:380px){
+    main{
+        height: 900px;
+    }
+
+    h1{
+   font-size: 35px;
+   margin-left: 15%;
+    }
+    img{
+        height: 22%;
+        width: 100%;
+        top: 64%;
+        left: 0%;
+    }
+    .dropdown{
+        width: 70%;
+        height: 40%;
+    }
+    button{
+        margin-bottom: 10%;
+    }
+    .half-page{
+        height: 100%;
+        background-repeat: no-repeat;
+        background-color: black;
+        margin-bottom: 35%;
+    }
+    .message{
+        width: 90%;
+        top: 88%;
+        left: 5%;
+        font-size: 25px;
+        color: green;
+    }
+    footer{
+        height: 20%;
+        padding-top: 5%;
+        margin-bottom: 4%;
+    }
+    p{
+        margin-left: 4%;
+    }
+
+}
+
