@@ -93,7 +93,7 @@ em{
 }
 .big-pic{
     margin-top: 2%;
-    background-image: url(/images/glass-planet.jpg);
+    background-image: url(images/glass-planet.jpg);
     height: 40%;
     background-size: cover;
 }
