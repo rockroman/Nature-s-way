@@ -8,7 +8,7 @@ body{
 }
 header{
     width: 100%;
-    background-color: rgba(151, 85, 0, 0.936);
+    background-color: rgba(58, 33, 1, 0.9);
     
     height: 7%;
     display: flex;
@@ -25,12 +25,14 @@ header{
 header img{
     height: 80%;
     width: 20%;
+    margin-right: 3%;
 }
 #hero-section{
     display: flex;
     justify-content: space-between;
     height: 12%;
     margin-top: 1%;
+    
 }
 hr{
     color: black;
@@ -41,7 +43,8 @@ hr{
     height: 100%;
     width:185px ;
     border: 2px solid green;
-    transform: rotateY(0.5turn);
+   transform: rotateY(0.5turn);
+
     
 
 }
@@ -99,12 +102,13 @@ em{
 }
 
 #quote{
-    height: 5%;
+    height: 4%;
     background-color: darkgreen;
+    margin-top: 1%;
 }
 .top-foot{
     height: 17%;
-    background-image: url(/images/leaf-planet.jpg);
+    background-image: url(images/leaf-planet.jpg);
     background-size: cover;
     position: relative;
     border: 2px solid black;
@@ -128,7 +132,7 @@ button a{
 }
 
 footer{
-    background-color:#333300;
+    background-color:#afaf17;
     height: 12%;
     display: flex;
     position: relative;
@@ -156,6 +160,10 @@ footer{
     list-style-type: none;
     margin-top: 2%;
 
+}
+#pages a{
+    text-decoration: none;
+    color: black;
 }
 .social-media{
     /* border: 2px red solid;*/
